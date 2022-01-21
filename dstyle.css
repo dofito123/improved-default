@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+body {
+	background-color: #fafafa;
+	display: flex;
+	height: 100vh;
+	transition: background 0.2s linear;
+}
+
+/*table styling*/
+
+.table-container {
+    padding: 0 10%;
+    margin: 200px auto 0;
+	/*margin-left: 300px;*/
+}
+
+.heading {
+    font-size: 40px;
+    text-align: center;
+    color: #161616;
+    margin-bottom: 40px;
+}
+
+.table {
+	margin-left: -200px;
+    width: 200%;
+    border-collapse: collapse;
+}
+.table thead tr th {
+    font-size: 14px;
+	font-weight: medium;
+	letter-spacing: 1px;
+	color: #161616;
+	opacity: 1;
+	padding: 12px;
+	vertical-align: top;
+}
+.table tbody tr td {
+	font-size: 14px;
+	font-weight: normal;
+	letter-spacing: 1px;
+	color: #161616;
+	padding: 8px;
+	text-align: center;
+}
+
+.btn {
+	color: #4c00ff;
+	text-decoration: none;
+}
+
+.btn:hover {
+	text-decoration: underline;
+	transition: 0.3s;
+}
+
+.di {
+	margin: 5px;
+	margin-bottom: -2px;
+	color: #161616;
+}
+
+img {
+	position: absolute;
+	top: 43%;
+	left: 50%;
+	transform: translateX(2359%) translateY(40.8px);
+	width: 15px;
+	height: 15px;
+	transition: 200ms ease-in-out filter;
+}
+
+.img:hover img {
+	filter: brightness(50%);
+}
+
+.tooltip {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.info {
+	position: absolute;
+	left: 50%;
+	top: 130%;
+	transform: translate(94.5%,-480%);
+	background-color: #000;
+	letter-spacing: 1px;
+	box-shadow: 0 0 .5em rgba(255, 255, 255, .3);
+	border-radius: .5em;
+	color: #fff;
+	padding: 1em;
+	width: 250px;
+
+	opacity: 0;
+	pointer-events: none;
+	transition: 200ms ease-in-out opacity, 200ms ease-in-out transform;
+}
+
+.info::before {
+	content:'';
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 20px;
+	height: 20px;
+	background-color: #000;
+	transform: translate(-45%, -45%) rotate(45deg) ;
+}
+
+.img:hover ~ .info {
+	opacity: 1;
+	pointer-events: all;
+	transform: translate(94.5%, -480%);
+}
+
+.exitico {
+	margin: 1px;
+	color: #161616;
+	height: 10px;
+	width: 10px;
+	justify-content: center;
+	cursor: pointer
+}
