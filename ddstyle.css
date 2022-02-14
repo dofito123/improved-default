@@ -8,7 +8,7 @@
 }
 
 body {
-	background-color: #fafafa;
+	background-color: #161616;
 	display: flex;
 	height: 100vh;
 	transition: background 0.2s linear;
@@ -17,14 +17,14 @@ body {
 /*table styling*/
 .table-container {
     padding: 0 10%;
-    margin: 200px auto 0;
+    margin: 196px auto 0;
 	margin-left: 260px;
 }
 
 .heading {
     font-size: 40px;
     text-align: center;
-    color: #161616;
+    color: #ffffff;
     margin-bottom: 40px;
 }
 
@@ -37,7 +37,7 @@ body {
     font-size: 14px;
 	font-weight: medium;
 	letter-spacing: 1px;
-	color: #161616;
+	color: #ffffff;
 	opacity: 1;
 	padding: 12px;
 	vertical-align: top;
@@ -46,33 +46,34 @@ body {
 	font-size: 14px;
 	font-weight: normal;
 	letter-spacing: 1px;
-	color: #161616;
+	color: #fafafa;
 	padding: 8px;
 	text-align: center;
 }
 
 .btn {
-	color: #3990f3;
+	color: #48f791;
 	text-decoration: none;
-	transition: 0.3s;
+    transition: 0.3s;
 }
 
 .btn:hover {
-	color: #205ad6;
+	color: #2fd875;
 	transition: 0.3s;
 }
 
 .di {
 	margin: 5px;
 	margin-bottom: -2px;
-	color: #161616;
+    overflow: hidden;
+	color: #fff;
 }
 
 .dlico {
 	text-decoration: none;
 	margin: 5px;
-	background: #161616;
-	color: #c0c0c0;
+	background: #ffffff;
+	color: #464646;
 	padding: 5px 5px;
 	height: 20px;
 	width: 20px;
@@ -84,15 +85,14 @@ body {
 
 .dlico:hover {
 	transition: 0.3s;
-	color: rgb(255, 255, 255);
+	color: #161616;
 }
 
 .exitico {
 	text-decoration: none;
 	margin: 5px;
-	top: 20%;
-	background: #161616;
-	color: #c0c0c0;
+	background: #ffffff;
+	color: #464646;
 	padding: 5px 5px;
 	height: 20px;
 	width: 20px;
@@ -104,5 +104,5 @@ body {
 
 .exitico:hover {
 	transition: 0.3s;
-	color: rgb(255, 255, 255);
+	color: #161616;
 }
