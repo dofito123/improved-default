@@ -94,13 +94,19 @@ nav ul li a {
 
 .dico {
 	width: 130px;
-	margin-right: -10px;
+	margin-right: -25px;
 	transition: transform 0.5s;
 }
 
 .cico {
 	width: 130px;
-	margin-right: -10px;
+	margin-right: -25px;
+	transition: transform 0.5s;
+}
+
+.nico {
+	width: 152px;
+	margin-right: -25px;
 	transition: transform 0.5s;
 }
 
@@ -108,6 +114,9 @@ nav ul li a {
 	transform: translateY(-10px);
 }
 .cico:hover {
+	transform: translateY(-10px);
+}
+.nico:hover {
 	transform: translateY(-10px);
 }
 

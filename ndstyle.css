@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+    background: #161616;
+    letter-spacing: 2.1px;
+}
+
+.content-area {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content-area h1 {
+    font-size: 3.4rem;
+    color: #fafafa;
+    font-weight: 500;
+    font-family: 'Alata', sans-serif;
+    text-align: center;
+}
+
+.content-area .forms {
+    display: flex;
+    align-items: center;
+
+}
+
+.content-area p {
+    color: #fafafa;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid rgb(38, 255, 103);
+    font-size: 1.1rem;
+    width: 500px;
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    outline: none;
+}
+
+button {
+    border: none;
+    background: rgb(38, 255, 103);
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 5px 5px;
+	height: 40px;
+	width: 110px;
+    margin-top: 10px;
+    letter-spacing: 2.1px;
+    margin-bottom: 10px;
+    outline: none;
+    cursor: pointer;
+}
+
+.dlico {
+	text-decoration: none;
+	margin: 5px;
+	background: #fafafa;
+	color: #2b2b2b;
+	padding: 5px 5px;
+	height: 20px;
+	width: 20px;
+	border-radius: 5px;
+	justify-content: center;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.dlico:hover {
+	transition: 0.3s;
+	color: #161616;
+}
+
+.exitico {
+	text-decoration: none;
+	margin: 5px;
+	top: 20%;
+	background: #fafafa;
+	color: #2b2b2b;
+	padding: 5px 5px;
+	height: 20px;
+	width: 20px;
+	border-radius: 5px;
+	justify-content: center;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.exitico:hover {
+	transition: 0.3s;
+	color: #161616;
+}
